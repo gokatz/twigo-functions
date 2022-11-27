@@ -1,0 +1,21 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/bower_components
+
+# misc
+configfile.txt
+npm-debug.log
+.DS_Store
+
+# Local Netlify folder
+.netlify
+
+# for time being
+Procfile
+config-common.js
+config-key-staging.js
+config-key.js
+mail.js
+test.js

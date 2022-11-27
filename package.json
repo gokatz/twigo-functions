@@ -1,0 +1,23 @@
+{
+  "name": "twit-bot",
+  "version": "1.0.0",
+  "description": "Twitter bot of my own",
+  "main": "bot.js",
+  "scripts": {
+    "test": "npm test",
+    "deploy": "git push heroku master"
+  },
+  "keywords": [
+    "bot",
+    "twiiter"
+  ],
+  "dependencies": {
+    "netlify-cli": "^12.2.7",
+    "nodemailer": "2.6.4",
+    "request": "^2.87.0",
+    "request-promise-native": "^1.0.5",
+    "twit": "2.2.5"
+  },
+  "author": "Gokul Kathirvel (@_gokatz)",
+  "license": "MIT"
+}
